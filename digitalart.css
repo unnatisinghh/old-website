@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body{
+    font-family: Raleway, Calibri, Arial, sans-serif;
+}
+
+.maintitle{
+    color: white;
+    padding: 200px;
+    font-size: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+nav ul li a {
+    color: black;
+}
+
+.parallax {
+  background-image: url(https://66.media.tumblr.com/db425030ee931d856944e40ba3246b1c/tumblr_pjztxx4vF41xabg9po1_1280.jpg);
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+footer {
+    clear: both;
+}

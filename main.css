@@ -1,0 +1,164 @@
+body{
+    background: #A8EADD;
+    font-family: arial;
+}
+
+h1{
+    padding: 10px;
+}
+
+.secondary{
+    background: #FFF;
+    padding: 80px;
+
+}
+
+header{
+    background: #D6C295;
+    color: white
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.row{
+}
+
+.col{
+    font-family: courier;
+    /*background: #EAA8CE; */
+    padding: 5px 5px;
+    float:left;
+    margin: 1%;
+    width: 30%;
+}
+
+/*.img-wrapper{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.image {
+    width: 100%;
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    breakface-visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-wrapper {
+      opactiy: 0;
+      transition: 0.5 ease;
+      background-color: #ffffff;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%,-50%);
+      margin-top: -30%;
+      width: 35%;
+      height: auto;
+}
+
+.img-wrapper: hover .text-wrapper{
+    opacity: 0.9;
+}
+
+.img-wrapper: hover img{
+    opacity: 0.7;
+}
+
+.top{
+    text-align: center;
+    width: 100%;
+    color: #585858;
+    font-family: 'raleway', sans-serif;
+}
+
+.bottom{
+    text-align: center;
+    width: 100%;
+    color: #585858;
+    font-family: 'raleway', sans-serif;
+}
+
+#hello{
+    font-size: 4.5vw;
+}
+
+#bye{
+    font-size: 7vw;
+} */
+
+col .container {
+  position: relative;
+  width: 40%;
+}
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .7s ease;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  font-family: arial;
+  padding: 16px 32px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("greenland.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+    clear: both;
+}
+
+
